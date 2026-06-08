@@ -196,7 +196,7 @@ html{
   grid-template-columns: repeat(3, 1fr);
   /* flex-direction: column; */
   /* flex-wrap: wrap; */
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   /* width: 80%; */
 }

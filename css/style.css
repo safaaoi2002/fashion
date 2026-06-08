@@ -145,4 +145,45 @@ padding: 70px;
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+/* gallery page */
+/* section video3 content in gallery page *******************************************************************************/
+/* .video3-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    text-align: center;
+} */
 
+.video3-content h2{
+    color: rgb(252, 219, 237);
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: cursive;
+}
+.video3-content a{
+    color: rgb(252, 219, 237);
+    text-decoration: none;
+    font-family: cursive;
+}
+.glow {
+  animation: glow 2s infinite alternate;
+}
+@keyframes glow {
+  from {
+   box-shadow: 0 0 10px rgb(242, 183, 255) ;
+  }
+  to {
+       box-shadow: 0 0 30px rgb(255, 207, 136) ;
+
+  }
+}
+.transform {
+  transition:0.4s ease ;
+}
+.t-scale:hover{
+  transform: scale(1.2);
+}
